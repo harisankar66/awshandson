@@ -2,7 +2,7 @@
 """
 Created on Fri Apr 24 19:17:15 2020
 
-@author: haris
+@author: harisankar66
 """
 
 #AWS List Buckets
@@ -15,3 +15,4 @@ response = s3.list_buckets()
 print('Existing buckets:')
 for bucket in response['Buckets']:
     print(f'  {bucket["Name"]}')
+print('Complete')
